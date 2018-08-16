@@ -1,0 +1,139 @@
+body{
+    margin: 0 auto;
+}
+
+#mwb-wrapper { 
+   	padding:10px;
+    max-width: 900px;
+    width: 100%;
+	margin: 10px auto;
+}
+
+#mwb-wrapper #mwb-wrap{
+   	/* display:flex; */
+   	position: relative;
+   	width: 100%;
+   	background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+/* IMAGE */
+#mwb-wrapper #mwb-wrap .mwb-image img{
+	height:215px;
+	width:215px;
+	box-shadow: -3px 5px 20px 10px rgba(0,0,0,0.25);
+}
+ 
+	
+#mwb-wrapper #mwb-wrap .mwb-image{
+	position: absolute;
+	margin: 0 auto;
+	top: 50%;
+	left: 20px;
+	content: "";
+	transform: translateY(-50%);
+	/* float:left;
+	width: 29%; */
+
+}
+
+/* TEXT */
+#mwb-wrapper #mwb-wrap .mwb-text{
+	background-color:#434343;
+	/* width: 71%;
+	float: left; */
+	color: #ffffff;
+	z-index: 9;
+	padding-left: 250px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#mwb-wrapper #mwb-wrap p:last-child{
+	font-size: 12px !important;
+	/* color:#9E9E9E; */
+	padding: 1px 20px;
+	line-height: 20px;
+}
+#mwb-wrapper #mwb-wrap p{
+	font-size: 17.5px !important;
+	/* color:#9E9E9E; */
+	padding: 1px 20px;
+}
+#mwb-wrapper #mwb-wrap .mwb-text h2{
+	font-weight: lighter;
+	/* color:#000000; */
+	font-size: 28px;
+	line-height: 2px;
+    padding: 5px 20px 0px 20px;
+}
+#mwb-wrapper #mwb-wrap .mwb-right{
+	padding: 6px 20px;
+	/* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+}
+
+#mwb-wrapper #mwb-wrap i{
+	padding: 0px 4px;
+	font-size: 19px;
+	margin-right: 40px
+}
+
+
+@media only screen and (max-width:992px) {
+
+#mwb-wrapper #mwb-wrap{
+	max-width: 750px;
+}
+
+
+@media screen and (max-width:768px) {
+
+#mwb-wrapper { 
+   	max-width: 400px;
+   	padding:0px 0px 0px 0px;
+   	margin:0px;
+}
+#mwb-wrapper #mwb-wrap{
+	max-width: 650px;
+	display:block;
+}
+
+#mwb-wrapper #mwb-wrap .mwb-image img{
+	height:200px;
+	width:200px;
+	box-shadow: -3px 5px 20px 10px rgba(0,0,0,0.25);
+}
+
+
+#mwb-wrapper #mwb-wrap .mwb-image{
+	position: absolute;
+	margin: 0 auto;
+	top: 5%;
+	left: 50%;
+	content: "";
+	transform: translateX(-50%);
+
+}
+/*TEXT*/
+#mwb-wrapper #mwb-wrap .mwb-text{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 240px;
+	padding-bottom:10px;
+}
+#mwb-wrapper #mwb-wrap p{
+	font-size: 14px;
+}
+#mwb-wrapper #mwb-wrap .mwb-text h2{
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+
+#mwb-wrapper #mwb-wrap i{
+	padding: 0px 4px;
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+
+}
